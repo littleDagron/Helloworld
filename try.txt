@@ -1,2 +1,2 @@
-let me try command git push -u origin master
-& me
+let me try command git push -u origin maser
+and me

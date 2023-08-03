@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T09:05:59.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="AalzrtjgwedSSaSDetZC" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T09:54:53.951Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="G_SS_Ma_T8a8R5wp0FvR" version="21.6.6" type="github">
   <diagram name="第 1 页" id="OmMquaRmloYeKSOPYUJ-">
     <mxGraphModel dx="1368" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -339,6 +339,9 @@
         </mxCell>
         <mxCell id="ZGOvTFg4tCYZPhWHCbKX-102" value="deleteRole" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="ZGOvTFg4tCYZPhWHCbKX-93">
           <mxGeometry x="40" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGOvTFg4tCYZPhWHCbKX-113" value="permissionManage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="ZGOvTFg4tCYZPhWHCbKX-93">
+          <mxGeometry x="40" y="30" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZGOvTFg4tCYZPhWHCbKX-95" value="UserPermissionManage" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="930" y="1100" width="260" height="320" as="geometry" />

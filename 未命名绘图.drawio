@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T02:57:10.353Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RwOiRij8pFUjynxupSW2" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-23T05:50:02.937Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_23Rw00GakC9JpAWxFl8" version="21.6.8" type="github" pages="3">
   <diagram name="第 1 页" id="KPznpjY8Kz4asvmCAZzC">
     <mxGraphModel dx="1207" dy="811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -732,7 +732,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l45VwiwZnr8m7jmqM_RZ" name="第 3 页">
-    <mxGraphModel dx="977" dy="656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="919" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1164,6 +1164,86 @@
         </mxCell>
         <mxCell id="2pUBlpGW6T0XavW3x3YP-105" value="+ execute(BillPlanContext): BillPlanContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-102">
           <mxGeometry y="34" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-107" value="«interface»&lt;br&gt;&lt;b&gt;FileHandler&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3366.5" y="983" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="2pUBlpGW6T0XavW3x3YP-108" target="2pUBlpGW6T0XavW3x3YP-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-108" value="CsvHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2994" y="1097" width="263" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-110" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-108">
+          <mxGeometry y="26" width="263" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-111" value="+ writeFile(BillPlanContext,TbBillPlan,List): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-108">
+          <mxGeometry y="34" width="263" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="2pUBlpGW6T0XavW3x3YP-113" target="2pUBlpGW6T0XavW3x3YP-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-113" value="ExcelHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3290" y="1097" width="263" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-114" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-113">
+          <mxGeometry y="26" width="263" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-115" value="+ writeFile(BillPlanContext,TbBillPlan,List): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-113">
+          <mxGeometry y="34" width="263" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="2pUBlpGW6T0XavW3x3YP-117" target="2pUBlpGW6T0XavW3x3YP-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-117" value="PdfHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="3596" y="1097" width="263" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-118" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-117">
+          <mxGeometry y="26" width="263" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-119" value="+ writeFile(BillPlanContext,TbBillPlan,List): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-117">
+          <mxGeometry y="34" width="263" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-122" value="«interface»&lt;br&gt;&lt;b&gt;EmailStrategy&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3358" y="1219" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="2pUBlpGW6T0XavW3x3YP-123" target="2pUBlpGW6T0XavW3x3YP-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-123" value="&lt;i&gt;AbstractEmailHandler&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3211.5" y="1304" width="403" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-125" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-123">
+          <mxGeometry y="26" width="403" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-126" value="# doSendEmail(List, String, EmailMQTypeEnum, JSONObject): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-123">
+          <mxGeometry y="34" width="403" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="2pUBlpGW6T0XavW3x3YP-128" target="2pUBlpGW6T0XavW3x3YP-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-128" value="SimpleEmailHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="1452" width="252" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-130" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-128">
+          <mxGeometry y="26" width="252" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-131" value="+ sendEmail(PackagingContext, String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-128">
+          <mxGeometry y="34" width="252" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="2pUBlpGW6T0XavW3x3YP-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3412.083333333334" y="1372.6666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-134" value="MerchantEmailHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="3442" y="1454" width="252" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-135" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-134">
+          <mxGeometry y="26" width="252" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2pUBlpGW6T0XavW3x3YP-136" value="+ sendEmail(PackagingContext, String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2pUBlpGW6T0XavW3x3YP-134">
+          <mxGeometry y="34" width="252" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

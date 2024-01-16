@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T07:06:41.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.15" etag="R-1_CjcZVofpHv88fk01" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T07:44:54.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cpMQhMYmDekMaxNVvqNy" version="22.1.15" type="github">
   <diagram name="第 1 页" id="aYEVnGggJAAlPB913WUK">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s11_9V9qkrOpitS2UEJY-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="s11_9V9qkrOpitS2UEJY-2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s11_9V9qkrOpitS2UEJY-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-4" value="登录sftp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="172.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s11_9V9qkrOpitS2UEJY-6" target="s11_9V9qkrOpitS2UEJY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-6" value="到指定目录拉取账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="172.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s11_9V9qkrOpitS2UEJY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s11_9V9qkrOpitS2UEJY-7" value="账单解析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="172.5" width="100" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
